@@ -1,0 +1,94 @@
+/* Colors and font */
+body {
+  background: rgb(226, 224, 226);
+  color: rgb(82,95,160);
+  font-family:  'Lora', serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+h1, h2, h3 {
+  font-family:  'Roboto', sans-serif;
+}
+h1 {
+  color: rgb(10, 15, 56);
+  font-size: 32px;
+  font-weight: 900;
+}
+h2, h3 {
+  color: rgb(117,116,112);
+  font-size: 15px;
+  font-weight: 300px;
+}
+a {
+  color: rgb(139, 142, 196);
+  transition: color 0.5s ease;
+  font-weight: 700px;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(214, 198, 27);
+  text-decoration: none;
+}
+
+/* custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+  margin: 20px 0px;
+  text-align: center;
+  border-radius: 4px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: green;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: black;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+ display: inline;
+ padding: 10px;
+}
+.list-inline i {
+  font-size: 30px;
+}
+.list-inline i:hover {
+ background: black;
+}
+#introduction p {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
